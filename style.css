@@ -1,0 +1,54 @@
+body
+{
+    display: flex;
+    max-width: 70%;
+    margin: auto;
+}
+aside
+{
+    max-width: 40%;
+    background-color: dodgerblue;
+    color: white;
+}
+.photo
+{
+    background-image: url("img/ether-1.jpg");
+    height: 15em;
+}
+main
+{
+    max-width: 60%;
+    color: gray;
+}
+.coordonees
+{
+    display: flex;
+    justify-content: space-around;
+}
+.date
+{
+    color: dodgerblue;
+}
+.parcours
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 1em 1em 1em 1em;
+    box-shadow: 5px 5px 5px;
+}
+.fa-plane,.fa-graduation-cap,.fa-suitcase
+{
+    font-size: 3em;
+}
+article
+{
+    border-bottom: 0.1em solid grey;
+}
+.mg
+{
+    max-width: 70%;
+}
+.mg p
+{
+    margin-top: 0px;
+}
